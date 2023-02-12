@@ -1,0 +1,7 @@
+Позитивное тестирование:
+    Первый аргумент: 8, Второй аргумент: 9, Третий аргумент: 10. Результат: "nonequilateral"
+    Первый аргумент: 1, Второй аргумент: 1, Третий аргумент: 1. Результат: "equilateral"
+    Первый аргумент: 2, Второй аргумент: 3, Третий аргумент: 2. Результат: "isosceles"
+Негативное тестирование:
+    Первый аргумент: 'a', Второй аргумент: 'b', Третий аргумент: 3. Результат: "IncorrectTriangleSides: Incorrect triangle sides: All sides values must be int"
+    Первый аргумент: 1, Второй аргумент: 2, Третий аргумент: 3. Результат: "IncorrectTriangleSides: Incorrect triangle sides: Triangle with given sides does not exist"
